@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>sobhan learn chai or code</h1>
+    <button id="stop">stop</button>
+</body>
+<script>
+    const saysobhan = function() {
+        console.log("sobhan sahoo");
+    }
+    // setTimeout(function(){
+    //     console.log("sobhan sahoo");
+    // },8000) //after 8s it will do the task like it print my name
+
+    const changetext = function(){
+        document.querySelector('h1').innerHTML = "sobhan is learning now"
+    }
+
+    // setTimeout(changetext,8000)
+    setTimeout(saysobhan,8000)
+    // clearTimeout(saysobhan) //it says actually what ever the function call is present in queue please clear it out .
+
+</script>
+</html>
